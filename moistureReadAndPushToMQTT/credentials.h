@@ -1,10 +1,10 @@
-#define NETWORK_PASSWORD "bunyamin2013"
+#define NETWORK_PASSWORD "X"
 #define NETWORK_LIST { \
-	WIFI_CONN("Celik_Apart", NETWORK_PASSWORD, NULL, 0), \
+	WIFI_CONN("X", NETWORK_PASSWORD, NULL, 0), \
         NULL, \
         }
 #define MESH_PASSWORD    "esp8266_sensor_mesh"
-#define MQTT_SERVER      "192.168.1.45"
+#define MQTT_SERVER      "192.168.43.254"
 #define MQTT_PORT        1883
 
 /* Only used if SSL is enabled */
